@@ -75,4 +75,9 @@
         <item name="android:windowBackground">@drawable/launch_screen</item>
         <item name="android:textColorHint">@color/secondary_text_color</item>
     </style>
+
+    <style name="Theme.ownCloud.Overlay" parent="Theme.ownCloud.OverlayBase">
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
 </resources>
