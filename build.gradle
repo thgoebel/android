@@ -274,6 +274,10 @@ android {
     viewBinding {
         enabled true
     }
+
+    androidResources {
+        generateLocaleConfig true
+    }
 }
 
 dependencies {
